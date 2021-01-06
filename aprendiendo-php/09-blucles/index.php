@@ -75,6 +75,14 @@ while ($contador <= 10) {
 }
 
 //Ejemplo Do While
+echo"<hr/>";
 
-
+$edad = 18 ;
+$contador = 1 ;
+ do{
+     //Bloque de instrucciones    
+     echo  "Tienes acceso al sitio  privado $contador <br/>";
+     $contador++;
+     }while ($edad >= 18 && $contador <= 10 );
+ 
 ?>
