@@ -43,4 +43,14 @@
     
     echo ($peliculas[2]);
  
+    $cantantes = ['Batman' , 'Spider' , 'lord' , 'superman'];
+
+    //Orden alfabetico
+    sort($peliculas);
+    var_dump($peliculas);
+
+    //Orden inverso
+    arsort($peliculas);
+    var_dump($peliculas); 
+
 ?>
