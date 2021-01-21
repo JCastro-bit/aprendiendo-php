@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <h1>Funciones!<a role="button" class="btn btn-primary" href="index.php">Regresar</a></h1>
         <hr>
-        <div>
+        <div  class="container">
             <p>
                 <li>Son un grupo de ordenes(instrucciones) agrupadas por un nombre en concreto y
                     que pueden reutilizarce solamente invocando a la función<br>
