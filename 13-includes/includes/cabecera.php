@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <h1>Includes!<a role="button" class="btn btn-primary" href="index.php">Regresar</a></h1>
+    <h1>Includes!<a role="button" class="btn btn-primary" href="/aprendiendo-php">Regresar</a></h1>
     <hr>
     <div>
         <p><li>Nos ayuda a usar ficheros php dentro otros<br>

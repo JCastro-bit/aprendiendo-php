@@ -13,11 +13,11 @@
             }
 
             move_uploaded_file($archivo['tmp_name'], 'images/'.$nombre);
-            header("Refresh: 5; URL=index.php");
             echo"Imagen subida correctamente";
+            header("Refresh: 2; URL=index.php");            
 
        }else{
-           header("Refresh: 5; URL=index.php");
+           header("Refresh: 2; URL=index.php");
            echo"Sube una imagen con formato correcto";
        }
 
