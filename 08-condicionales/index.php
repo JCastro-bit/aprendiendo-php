@@ -165,7 +165,7 @@ switch ($dia) {
 
 //GOTO
 goto marca;
-echo '<hr>';
+echo "<hr>";
 echo "<br><h3> Ejemplo de GOTO </h3>";
 echo "<br><h4> Esto es una instruccion </h4>";
 echo "<br><h4> Esto es una instruccion </h4>";
