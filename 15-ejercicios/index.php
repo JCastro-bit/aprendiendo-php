@@ -1,4 +1,4 @@
-<?php include ("modulos/header.php"); ?>
+<?php include ("../modulos/header.php"); ?>
     <h1>Ejercicios!</h1>
     <hr>
     <div class="container">
