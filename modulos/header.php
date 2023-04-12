@@ -65,6 +65,14 @@
 </head>
 
 <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="/aprendiendo-php/index.php"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -76,6 +84,7 @@
             <li class="nav-item"><a href="<?php echo $protocol . $host; ?>" class="nav-link active"
                     aria-current="page">Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link disabled">Features</a></li>
-            <li class="nav-item"><a href="https://github.com/JCastro-bit/aprendiendo-php" class="nav-link">Github</a></li>
+            <li class="nav-item"><a href="https://github.com/JCastro-bit/aprendiendo-php" class="nav-link">Github</a>
+            </li>
         </ul>
     </header>
