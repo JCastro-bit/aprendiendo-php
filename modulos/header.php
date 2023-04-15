@@ -74,10 +74,10 @@
     </style>
 
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/aprendiendo-php/index.php"
+        <a href="<?php echo $protocol . $host; ?>"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <span class="fs-4">&nbsp&nbspAprendiendo</span>
-            <img src="https://img.icons8.com/ios-filled/50/null/php-server.png" />
+            <img src="<?php echo $protocol . $host; ?>\assets\img\logo-php.png" />
         </a>
 
         <ul class="nav nav-pills">
