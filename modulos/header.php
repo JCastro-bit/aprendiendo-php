@@ -62,6 +62,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/2237d5d0c6.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -76,14 +79,13 @@
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="<?php echo $protocol . $host; ?>"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img src="<?php echo $protocol . $host; ?>\assets\img\logo-php.png"  width="120" alt="logo-php" />
+            <img src="<?php echo $protocol . $host; ?>\assets\img\logo-php.png" width="200" alt="logo-php" />
         </a>
 
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="<?php echo $protocol . $host; ?>" class="nav-link active"
-                    aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link disabled">Features</a></li>
-            <li class="nav-item"><a href="https://github.com/JCastro-bit/aprendiendo-php" class="nav-link">Github</a>
+                    aria-current="page">Home&nbsp;<i class="fa-solid fa-house"></i></a></li>
+            <li class="nav-item"><a href="https://github.com/JCastro-bit/aprendiendo-php" class="nav-link">Github&nbsp;<i class="fa-brands fa-github"></i></a>
             </li>
         </ul>
     </header>

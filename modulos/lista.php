@@ -1,4 +1,4 @@
-<ul class="list-group">
+<ul class="list-group shadow-sm">
   <div class="list-group">    
     <a href="#" class="list-group-item d-flex justify-content-between align-items-center active">Lista de ejercicios<span class="badge bg-secondary badge-pill">23</span></a>
     <a href="01-hola-mundo/index.php" class="list-group-item list-group-item-action">01-hola-mundo</a>
